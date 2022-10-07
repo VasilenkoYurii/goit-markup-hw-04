@@ -134,10 +134,12 @@ body {
 
 .link.smartphone {
   display: inline-flex;
+  align-items: center;
 }
 
 .link.envelope {
   display: inline-flex;
+  align-items: center;
 }
 
 .envelope::before {
