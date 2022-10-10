@@ -311,22 +311,15 @@ body {
 }
 
 .icon-features-conteiner {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   width: 270px;
-  align-items: center;
   background: var(--bg-batton);
   border-radius: 4px;
   margin-bottom: 30px;
   padding: 0;
-}
-
-.feautures-icon {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  align-items: center;
 }
 
 /* .features.list .item {
@@ -416,7 +409,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .team-bgr {
@@ -533,7 +526,7 @@ body {
 }
 
 .box-footer-logo {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-address {
